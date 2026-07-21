@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from "../assets/prof.jpeg";
 import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { 
@@ -226,7 +227,7 @@ const Hero = () => {
                   position: 'relative'
                 }}>
                   <img
-                    src="./src/assets/prof.jpeg"
+                    src={profileImage}
                     alt="Dhanuja Nisal profile portrait"
                     style={{
                       width: '100%',
