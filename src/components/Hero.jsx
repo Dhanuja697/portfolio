@@ -115,8 +115,8 @@ const Hero = () => {
                 <ArrowRight size={18} />
               </a>
               <a 
-                href="/CV.pdf" 
-                download="CV.pdf"
+                href="/Dhanuja Nisal.pdf" 
+                download="Dhanuja Nisal.pdf"
                 className="btn btn-secondary"
            >
                  DOWNLOAD CV
