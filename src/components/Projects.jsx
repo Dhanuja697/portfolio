@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import proj1 from "../assets/project1.png";
+import proj2 from "../assets/proj2.png";
+import proj3 from "../assets/proj3.png";
+import proj5 from "../assets/proj4.png";
+import proj6 from "../assets/proj5.png";
+import proj7 from "../assets/proj7.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
@@ -34,7 +40,7 @@ const Projects = () => {
         { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
         { name: "MongoDB", icon: <SiMongodb />, color: "#47a248" },
       ],
-      image: "./src/assets/project1.png",
+      image: {proj1},
       demo: "https://quantum-careers-git-main-dhanuja697s-projects.vercel.app/",
       github: "https://github.com/Dhanuja697/Quantum-Careers.git",
     },
@@ -48,7 +54,7 @@ const Projects = () => {
         { name: "Python", icon: <SiPython />, color: "#3776ab" },
         { name: "React.js", icon: <SiReact />, color: "#61dafb" },
       ],
-      image: "./src/assets/proj2.png",
+      image: {proj2},
       github: "https://github.com/Dhanuja697/laptop-price-ai-system.git",
     },
     {
@@ -61,7 +67,7 @@ const Projects = () => {
         { name: "React.js", icon: <SiReact />, color: "#61dafb" },
         { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
       ],
-      image: "./src/assets/proj3.png",
+      image: {proj3},
       demo: "https://greenvilla-git-main-dhanuja697s-projects.vercel.app",
       github: "https://github.com/Dhanuja697/greenvilla.git",
     },
@@ -73,7 +79,7 @@ const Projects = () => {
       description:
         "Instant group messaging app using web sockets, complete with message statuses, media attachments, and user online/offline trackers.",
       tech: [{ name: "React.js", icon: <SiReact />, color: "#61dafb" }],
-      image: "./src/assets/proj5.png",
+      image: {proj5},
       demo: "https://adventure-app-git-main-dhanuja697s-projects.vercel.app/",
       github: "https://github.com/Dhanuja697/adventure-app.git",
     },
@@ -87,7 +93,7 @@ const Projects = () => {
         { name: "Java", icon: <SiOpenjdk />, color: "#f89820" },
         { name: "MySQL", icon: <SiMysql />, color: "#4479a1" },
       ],
-      image: "./src/assets/proj6.png",
+      image: {proj6},
       demo: null,
       github: "https://github.com/Dhanuja697/inventory-management-system.git",
     },
@@ -103,7 +109,7 @@ const Projects = () => {
         { name: "Python", icon: <SiPython />, color: "#3776ab" },
 
       ],
-      image: "./src/assets/proj7.png",
+      image: {proj7},
       demo: "",
       github: "https://github.com/Dhanuja697/AI-inventory-management-system.git",
     },
