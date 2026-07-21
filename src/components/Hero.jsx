@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImage from "../assets/prof.jpeg";
+import CV from "../assets/Dhanuja Nisal.pdf";
 import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { 
@@ -115,8 +116,8 @@ const Hero = () => {
                 <ArrowRight size={18} />
               </a>
               <a 
-                href="/Dhanuja Nisal.pdf" 
-                download="Dhanuja Nisal.pdf"
+                href={CV} 
+                download="Dhanuja_Nisal_CV.pdf"
                 className="btn btn-secondary"
            >
                  DOWNLOAD CV
