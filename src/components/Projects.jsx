@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import proj1 from "../assets/project1.png";
+import projOne from "../assets/project1.png";
 import proj2 from "../assets/proj2.png";
 import proj3 from "../assets/proj3.png";
 import proj5 from "../assets/proj5.png";
@@ -40,7 +40,7 @@ const Projects = () => {
         { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
         { name: "MongoDB", icon: <SiMongodb />, color: "#47a248" },
       ],
-      image: {proj1},
+      image: {projOne},
       demo: "https://quantum-careers-git-main-dhanuja697s-projects.vercel.app/",
       github: "https://github.com/Dhanuja697/Quantum-Careers.git",
     },
